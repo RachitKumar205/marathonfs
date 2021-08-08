@@ -9,7 +9,7 @@
               <small class="text-muted">{{ post.date_upload|date:"F d, Y" }}</small>
           </div>
           {% if post.file %}
-          <a href="{{ post.author.profile.image.url }} " target="_blank"> <img src="{{ post.file.url }}" class="img-fluid" alt="Responsive image"></img>
+          <a href="{{ post.file.url }}" target="_blank"> <img src="{{ post.file.url }}" class="img-fluid" alt="Responsive image"></img>
           </a>
           
           {% endif %}
